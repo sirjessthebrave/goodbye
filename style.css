@@ -1,0 +1,35 @@
+body {
+	font-family: 'Lato', sans-serif;
+	line-height: 2;
+}
+.inner-wrapper {
+	overflow: auto;
+  	zoom: 1;
+  	max-width: 70%;
+  	margin: 0 auto;
+}
+h1 {
+    width: 70%;
+    text-align: right;
+    margin: 0 auto;
+    font-style: italic;
+}
+.text{
+	width: 60%;
+	float: left;
+	padding: 1em; 
+	box-sizing: border-box;
+	font-size: 18px;
+	text-align: right;
+}
+.img {
+	width: 40%;
+	float: left;
+	padding: 1em; 
+	box-sizing: border-box;
+	font-size: 18px;
+	text-align: left;
+}
+img {
+	width: 100%;
+}
