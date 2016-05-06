@@ -1,6 +1,6 @@
 body {
 	font-family: 'Lato', sans-serif;
-	line-height: 2;
+	line-height: 1.5;
 }
 .inner-wrapper {
 	overflow: auto;
@@ -16,16 +16,12 @@ h1 {
     border-bottom: double 7px #000;
 }
 .text{
-	width: 60%;
-	float: left;
 	padding: 1em; 
 	box-sizing: border-box;
 	font-size: 18px;
 	text-align: right;
 }
 .img {
-	width: 40%;
-	float: left;
 	padding: 1em; 
 	box-sizing: border-box;
 	font-size: 18px;
@@ -33,4 +29,15 @@ h1 {
 }
 img {
 	width: 100%;
+}
+
+@media (min-width: 780px){
+	.img{
+		width: 40%;
+		float: left;
+	}
+	.text{
+		width: 60%;
+		float: left;
+	}
 }
